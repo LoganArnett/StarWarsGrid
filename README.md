@@ -6,3 +6,6 @@
 
  * More boilerplate and Loading Component
  ![boilerplate](http://cloud.loganarnett.com/ab0e865818af/Screen%252520Recording%2525202018-12-16%252520at%25252007.11%252520PM.gif)
+
+ * Search and Sort working
+ ![search](http://cloud.loganarnett.com/67290ea0f42a/Screen%252520Recording%2525202018-12-16%252520at%25252007.21%252520PM.gif)
