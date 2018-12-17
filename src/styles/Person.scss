@@ -1,0 +1,20 @@
+.person {
+  .header, .is-one-fifth {
+    font-size: 3rem;
+  }
+  .is-one-fifth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .info {
+    font-size: 1rem;
+    font-weight: bold;
+    .fa {
+      font-size: 0.35rem;
+      line-height: 1.5rem;
+      margin: 0 0.5rem;
+    }
+  }
+}

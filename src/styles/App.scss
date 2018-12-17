@@ -28,3 +28,10 @@
     max-width: 25%;
   }
 }
+
+.People {
+  width: 100%;
+  li:nth-child(even) {
+    background-color: lightgray;
+  }
+}

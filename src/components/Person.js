@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Person.scss';
 
 export default class Person extends React.Component {
   renderIcon(species) {
