@@ -1,0 +1,41 @@
+@import 'variables';
+@import 'mixins';
+
+
+.placeholder {
+  font-size: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  .text	{
+    margin-left: 2%;
+    span {
+      animation-name: fadeInOut;
+      animation-duration: 1.4s;
+      animation-iteration-count: infinite;
+      animation-fill-mode: both;
+    }
+    span:nth-child(2) {
+      animation-delay: .2s;
+    }
+    span:nth-child(3) {
+      animation-delay: .4s;
+    }
+  }
+  .droids {
+    .header {
+      @include fluid($min_width, $max_width, $min_font, $max_font);
+      padding-top: 10%;
+    }
+    .small {
+      font-weight: bold;
+      @include fluid($min_width, $max_width, 12px, 20px);
+    }
+  }
+}
+
+@keyframes fadeInOut {
+  0% { opacity: .2; }
+  20% { opacity: 1; }
+  100% { opacity: .2; }
+}
