@@ -1,4 +1,7 @@
 # Star Wars Grid
+This project uses Create-React-App and pulls in data from the [Star Wars API](https://swapi.co).
+
+To run the project simply clone the repo, `npm install` and run`npm start`.
 
 ## Progress
  * Initial Commit
